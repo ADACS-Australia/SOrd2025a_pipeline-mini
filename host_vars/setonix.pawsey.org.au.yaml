@@ -1,0 +1,7 @@
+username: "ksmith1"
+software_name: "pipeline-mini"
+build_dir: "/scratch/askaprt/{{ username }}/{{ software_name }}"
+base_dir: "/software/projects/askaprt/{{ username }}"
+software_dir: "{{ base_dir }}/{{ software_name}}/{{ version }}"
+module_dir: "{{ base_dir }}/modulefiles/{{ software_name }}"
+module_file_path: "{{ module_dir }}/{{ version }}.lua"

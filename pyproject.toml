@@ -1,0 +1,18 @@
+[project]
+name = "pipeline-mini"
+version = "0.1.0"
+description = ""
+authors = [{name = "Keegan Smith", email = "keegan.r.s21@gmail.com"}]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+packages = ["pipeline_mini"]
+
+[project.scripts]
+pipeline-mini = "pipeline_mini.start:main"

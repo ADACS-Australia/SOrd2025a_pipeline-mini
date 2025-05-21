@@ -1,0 +1,1599 @@
+{
+   "jobs": [
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 19,
+         "eligible": 1746488904,
+         "end": 1746488941,
+         "start": 1746488922,
+         "submission": 1746488904,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 2
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516493,
+       "name": "202505060748_job1_1",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002612",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "COMPLETED"
+         ],
+         "reason": "None"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/job1.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 3672
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     },
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 19,
+         "eligible": 1746488904,
+         "end": 1746488941,
+         "start": 1746488922,
+         "submission": 1746488904,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 2
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "ERROR"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 1
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516494,
+       "name": "202505060748_job2_1",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002613",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "FAILED"
+         ],
+         "reason": "None"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/job2.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 3759
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     },
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 11,
+         "eligible": 1746488950,
+         "end": 1746488963,
+         "start": 1746488952,
+         "submission": 1746488904,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 5
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516495,
+       "name": "202505060748_resubmit_1",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002612",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "COMPLETED"
+         ],
+         "reason": "Dependency"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/resubmit.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 1723
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     },
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 19,
+         "eligible": 1746488962,
+         "end": 1746489001,
+         "start": 1746488982,
+         "submission": 1746488962,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 2
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516497,
+       "name": "202505060748_job2_2",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002612",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "COMPLETED"
+         ],
+         "reason": "None"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/job2.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 3664
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     },
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 11,
+         "eligible": 1746489010,
+         "end": 1746489023,
+         "start": 1746489012,
+         "submission": 1746488962,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 5
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516498,
+       "name": "202505060748_resubmit_2",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002612",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "COMPLETED"
+         ],
+         "reason": "Dependency"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/resubmit.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 1685
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     },
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 19,
+         "eligible": 1746489022,
+         "end": 1746489061,
+         "start": 1746489042,
+         "submission": 1746489022,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 2
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516499,
+       "name": "202505060748_job2_3",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002612",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "COMPLETED"
+         ],
+         "reason": "None"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/job2.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 3653
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     },
+     {
+       "account": "askaprt",
+       "comment": {
+         "administrator": "",
+         "job": "",
+         "system": ""
+       },
+       "allocation_nodes": 1,
+       "array": {
+         "job_id": 0,
+         "limits": {
+           "max": {
+             "running": {
+               "tasks": 0
+             }
+           }
+         },
+         "task_id": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "task": ""
+       },
+       "association": {
+         "account": "askaprt",
+         "cluster": "setonix",
+         "partition": "askaprt",
+         "user": "ksmith1",
+         "id": 38496
+       },
+       "block": "",
+       "cluster": "setonix",
+       "constraints": "",
+       "container": "",
+       "derived_exit_code": {
+         "status": [
+           "SUCCESS"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 0
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "time": {
+         "elapsed": 10,
+         "eligible": 1746489070,
+         "end": 1746489082,
+         "start": 1746489072,
+         "submission": 1746489022,
+         "suspended": 0,
+         "system": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "limit": {
+           "set": true,
+           "infinite": false,
+           "number": 5
+         },
+         "total": {
+           "seconds": 0,
+           "microseconds": 0
+         },
+         "user": {
+           "seconds": 0,
+           "microseconds": 0
+         }
+       },
+       "exit_code": {
+         "status": [
+           "ERROR"
+         ],
+         "return_code": {
+           "set": true,
+           "infinite": false,
+           "number": 1
+         },
+         "signal": {
+           "id": {
+             "set": false,
+             "infinite": false,
+             "number": 0
+           },
+           "name": ""
+         }
+       },
+       "extra": "",
+       "failed_node": "",
+       "flags": [
+         "STARTED_ON_BACKFILL",
+         "START_RECEIVED"
+       ],
+       "group": "ksmith1",
+       "het": {
+         "job_id": 0,
+         "job_offset": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         }
+       },
+       "job_id": 24516500,
+       "name": "202505060748_resubmit_3",
+       "licenses": "",
+       "mcs": {
+         "label": ""
+       },
+       "nodes": "nid002612",
+       "partition": "askaprt",
+       "hold": false,
+       "priority": {
+         "set": true,
+         "infinite": false,
+         "number": 75267
+       },
+       "qos": "normal",
+       "required": {
+         "CPUs": 1,
+         "memory_per_cpu": {
+           "set": false,
+           "infinite": false,
+           "number": 0
+         },
+         "memory_per_node": {
+           "set": true,
+           "infinite": false,
+           "number": 2048
+         }
+       },
+       "kill_request_user": "",
+       "reservation": {
+         "id": 0,
+         "name": ""
+       },
+       "script": "",
+       "state": {
+         "current": [
+           "FAILED"
+         ],
+         "reason": "Dependency"
+       },
+       "steps": [
+       ],
+       "submit_line": "sbatch pipeline_mini_run\/202505060748\/resubmit.batch",
+       "tres": {
+         "allocated": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 256
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "energy",
+             "name": "",
+             "id": 3,
+             "count": 1227
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 256
+           }
+         ],
+         "requested": [
+           {
+             "type": "cpu",
+             "name": "",
+             "id": 1,
+             "count": 1
+           },
+           {
+             "type": "mem",
+             "name": "",
+             "id": 2,
+             "count": 2048
+           },
+           {
+             "type": "node",
+             "name": "",
+             "id": 4,
+             "count": 1
+           },
+           {
+             "type": "billing",
+             "name": "",
+             "id": 5,
+             "count": 1
+           }
+         ]
+       },
+       "used_gres": "",
+       "user": "ksmith1",
+       "wckey": {
+         "wckey": "",
+         "flags": [
+         ]
+       },
+       "working_directory": "\/home\/ksmith1"
+     }
+   ],
+   "meta": {
+     "plugin": {
+       "type": "",
+       "name": "",
+       "data_parser": "data_parser\/v0.0.40",
+       "accounting_storage": "accounting_storage\/slurmdbd"
+     },
+     "client": {
+       "source": "\/dev\/pts\/75",
+       "user": "ksmith1",
+       "group": "ksmith1"
+     },
+     "command": [
+       "sacct",
+       "-X",
+       "-S",
+       "2025-05-0607:00:00",
+       "-E",
+       "2025-05-0620:00:00"
+     ],
+     "slurm": {
+       "version": {
+         "major": "23",
+         "micro": "10",
+         "minor": "11"
+       },
+       "release": "23.11.10",
+       "cluster": "setonix"
+     }
+   },
+   "errors": [
+   ],
+   "warnings": [
+   ]
+ }
