@@ -8,40 +8,34 @@ env:
   TAG: ${{ github.ref_name }}
 
 jobs:
-  build-and-push:
-    name: Build and Push Docker Image
+  build:
+    name: Build package
+    runs-on: ubuntu-latest
+    container: python:3.11
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies and build
+        run: |
+          python -m pip install build
+          python -m build
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: package
+          path: dist/pipeline_mini-0.1.0-py3-none-any.whl
+
+  Deploy:
+    name: Deploy to Setonix
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
-
-      - name: Login to Docker Hub
-        uses: docker/login-action@v2
+      - name: Download artifact
+        uses: actions/download-artifact@v3
         with:
-          username: ${{ vars.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v4
-        with:
-          context: .
-          build-args: |
-            VERSION=${{ env.TAG }}
-          push: true
-          tags: |
-            ${{ vars.DOCKER_HUB_USERNAME }}/hello-world:${{ env.TAG }}
-            ${{ vars.DOCKER_HUB_USERNAME }}/hello-world:latest
-
-  pull-and-deploy:
-    name: Pull and Deploy to Setonix
-    needs: build-and-push
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+          name: package
 
       - name: Set up SSH
         run: |
